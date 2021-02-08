@@ -74,7 +74,7 @@
 .header__subtitle {
     width: 388px;
     position: absolute;
-    bottom: 0px;
+    bottom: 30px;
     left: 64px;
     line-height: 25px;
     font-size: 18px;
@@ -138,7 +138,7 @@
     margin-bottom: 0px;
 }
 
-.output {
+.two-colomns__span-accent {
     line-height: 34px;
     font-size: 24px;
     font-weight: bold;
@@ -186,6 +186,7 @@ margin-bottom: 0px;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    margin-top: 0px;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -390,17 +391,18 @@ margin-bottom: 0px;
 .footer__column-links {
     display: flex;
     flex-direction: column;
-    text-decoration: none;
     margin-top: 0px;
     margin-bottom: 16px;
     /*border: 1px dashed red;*/
+}
+.footer__column-list {
+    list-style: none;
 }
 
 .footer__column-link {
     flex-direction: column;
     color: white;
     text-decoration: none;
-    list-style: none;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
