@@ -1,0 +1,10 @@
+.two-colomns__main-text {
+    width: 80%;
+    min-width: 784px;
+    justify-content: space-between;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #000000;
+    /*border: 1px dashed red;*/
+}

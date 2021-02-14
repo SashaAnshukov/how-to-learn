@@ -1,0 +1,7 @@
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-top: 80px;
+    /*border: 1px dashed red;*/
+}

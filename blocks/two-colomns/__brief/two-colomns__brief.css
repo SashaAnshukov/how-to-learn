@@ -1,0 +1,10 @@
+.two-colomns__brief {
+    width: 175px;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    color: #2f80ed;
+    /*border: 1px dashed rgb(238, 255, 0);*/
+}

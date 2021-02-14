@@ -1,0 +1,7 @@
+.resourses__logo {
+    display: flex;
+    width: 270px;
+    height: 38px;
+    z-index: 0;
+    /*border: 1px dashed rgb(255, 178, 13);*/
+}

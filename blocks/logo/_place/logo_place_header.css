@@ -1,0 +1,8 @@
+.logo_place_header {
+    position: absolute;
+    height: 32px;
+    top: 30px;
+    left: 64px;
+    z-index: 2;
+    /*border: 1px dashed red;*/
+}

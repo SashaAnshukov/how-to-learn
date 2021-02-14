@@ -1,0 +1,11 @@
+.kaufman__triangle {
+    background-image: url("../../../../../../../dev/first-project/how-to-learn/images/kaufman-triangle.svg");
+    width: 877px;
+    height: 877px;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: -210px;
+    z-index: -1;
+    /*border: 1px dashed red;*/
+}

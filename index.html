@@ -4,17 +4,17 @@
         <title>How to learn</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/normalize.css" />
-        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./vendor/normalize.css">
+        <link rel="stylesheet" href="./pages/index.css">
     </head>
     <body>
         <div class="page">
             <header class="header">
                 <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Изображение логотипа ЯндексПрактикум" />
                 <h1 class="header__title">Научиться учиться</h1>
-                <p class="header__subtitle">Какие современные и эффективные подходы к обучению Вы можете использовать в своей жизни?<a class="header__link" href="#"> Узнать &rarr;</a></p>
-                <img class="header__main-illustration" src="./images/header-image.png" alt="Изображение картины Ф. Решетникова Опять двойка" />
-                <div class="header__square-pic"></div>
+                <p class="header__subtitle">Какие современные и эффективные подходы к обучению Вы можете использовать в своей жизни?<a class="header__link opacity" href="#"> Узнать &rarr;</a></p>
+                <img class="header__main-illustration " src="./images/header-image.png" alt="Изображение картины Ф. Решетникова Опять двойка" />
+                <div class="header__square-pic rotation"></div>
             </header>
 
             <main class="content">
@@ -32,6 +32,72 @@
                             </p>
                         </div>
                     </div>
+                </section>
+
+                <section class="techniques">
+                    <h2 class="section-title">Техники обучения</h2>
+                    <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+
+                    <ul class="cards">
+                        <li class="cards__item">
+                            <img class="cards__image" src="./images/spint-2/cards-attention.png" alt="Изображение 101 Эссе">
+                            <h3 class="cards__title">Два вида внимания</h3>
+                            <p class="cards__discription">Глубокие знания<br> возникают, если<br> чередовать сфокусированное и рассеянное мышление.</p>
+                        </li>
+
+                        <li class="cards__item">
+                            <img class="cards__image" src="./images/spint-2/cards-recall.png" alt="Изображение воспоминания">
+                            <h3 class="cards__title">Recall</h3>
+                            <p class="cards__discription">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+                        </li>
+
+                        <li class="cards__item">
+                            <img class="cards__image" src="./images/spint-2/cards-interliving.png" alt="Изображение пространства">
+                            <h3 class="cards__title">Интерливинг</h3>
+                            <p class="cards__discription">Изучайте несколько навыков одновременно,<br> они обогащают друг друга.</p>
+                        </li>
+
+                        <li class="cards__item">
+                            <img class="cards__image" src="./images/spint-2/cards-question.png" alt="Изображение вопроса">
+                            <h3 class="cards__title">Вопросы</h3>
+                            <p class="cards__discription">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+                        </li>
+
+                        <li class="cards__item">
+                            <img class="cards__image" src="./images/spint-2/cards-competence.png" alt="Изображение иллюзии">
+                            <h3 class="cards__title">Иллюзия компетентности</h3>
+                            <p class="cards__discription">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="video">
+                    <h2 class="section-title">Видео нa TED</h2>
+                    <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+                    <div class="video__iframes">
+                        <iframe class="video__iframe" 
+                        src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+                        <iframe class="video__iframe" 
+                        src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe> 
+                    </div>
+                </section>
+                
+                <section class="description oakley">
+                    <div class="two-colomns two-colomns_place_moveup">
+                        <h2 class="two-colomns__brief">История Барбары Оакли.</h2>
+                        <div class="two-colomns__main-text">
+                            <p class="two-colomns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным<br>
+                            гуманитарием, причём далеко не самым умным. В армии она изучала русский язык,<br>
+                            чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="feynman">
+                    <h2 class="feynman__title">Метод Фейнмана</h2>
+                    <p class="feynman__subtitle">Выучить и не забыть.</p>
+                    <a class="feynman__link opacity" href="#">Подробнее &rarr;</a>
                 </section>
 
                 <section class="digits">
@@ -83,14 +149,22 @@
                     </ul>
                 </section>
 
-                <section class="feynman">
-                    <h2 class="feynman__title">Метод Фейнмана</h2>
-                    <p class="feynman__subtitle">Выучить и не забыть.</p>
-                    <a class="feynman__link" href="#">Подробнее &rarr;</a>
+                <section class="khan">
+                    <div class="khan__container">
+                        <p class="khan__author">Салман Хан</p>
+                        <h2 class="khan__title">Весь мир — школа</h2>
+                        <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+                        <p class="khan__quote-author">Джордж Лукас</p>
+                        <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+                        <div class="khan__book-container">
+                            <img class="khan__book-pic" src="./images/spint-2/khan-book.jpg" alt="Изображение обложки книги">
+                            <a class="khan__buy-link opacity" href="#">Купить книгу &rarr;</a>
+                        </div>
+                    </div>
                 </section>
 
                 <section class="kaufman">
-                    <div class="kaufman__triangle"></div>
+                    <div class="kaufman__triangle rotation"></div>
                     <!-- <img class="kaufman_triangle" src="./images/kaufman-triangle.svg" alt="Изображение треугольника Кауфмана">
         -->
                     <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
@@ -150,20 +224,33 @@
                 </section>
             </main>
 
+            <section class="resourses">
+                <h2 class="section-title">Полезные ресурсы</h2>
+                <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+                <nav class="resourses__logo-zone">
+                    <ul class="resourses__logo-zone-list">
+                        <li><a class="resourses__logo-link" href="#"><img class="resourses__logo opacity" src="./images/spint-2/logo/resources-arzamas.svg" alt="Изображение логотипа Arzamas"></a></li>
+                        <li><a class="resourses__logo-link" href="#"><img class="resourses__logo opacity" src="./images/spint-2/logo/resources-n1.svg" alt="Изображение логотипа N+1"></a></li>
+                        <li><a class="resourses__logo-link" href="#"><img class="resourses__logo opacity" src="./images/spint-2/logo/resources-polka.svg" alt="Изображение логотипа Полка"></a></li>
+                        <li><a class="resourses__logo-link" href="#"><img class="resourses__logo opacity" src="./images/spint-2/logo/resources-strelka.svg" alt="Изображение логотипа Strelka"></a></li>
+                    </ul>
+                </nav>
+            </section>
+
             <footer class="footer">
                 <div class="footer__columns">
                     <div class="footer__column footer__column_content_copyright">
                         <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Изображение логотипа ЯндексПрактикум" />
-                        <p class="footer__autor">&copy; 2021 IBWT</p>
+                        <p class="footer__author">&copy; 2021 IBWT Саша Аншуков</p>
                     </div>
 
                     <div class="footer__column footer__column_content_info">
                         <h3 class="footer__column-heading">О Практикуме</h3>
                         <nav class="footer__column-links">
                             <ul class="footer__column-list">
-                                <li><a class="footer__column-link" href="#">Главная</a></li>
-                                <li><a class="footer__column-link" href="#">Концепция</a></li>
-                                <li><a class="footer__column-link" href="#">Наставники</a></li>
+                                <li><a class="footer__column-link opacity" href="#">Главная</a></li>
+                                <li><a class="footer__column-link opacity" href="#">Концепция</a></li>
+                                <li><a class="footer__column-link opacity" href="#">Наставники</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -172,11 +259,11 @@
                         <h3 class="footer__column-heading">Cоцсети</h3>
                         <nav class="footer__column-links">
                             <ul class="footer__column-list">
-                                <li><a class="footer__column-link" href="#"> <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Изображение логотипа Facebook" />Facebook </a>
+                                <li><a class="footer__column-link opacity" href="#"> <img class="footer__social-icon opacity" src="./images/facebook_color_white.svg" alt="Изображение логотипа Facebook" />Facebook </a>
                                 </li>
-                                <li><a class="footer__column-link" href="#"> <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Изображение логотипа ВКонтакте" />ВКонтакте </a>
+                                <li><a class="footer__column-link opacity" href="#"> <img class="footer__social-icon opacity" src="./images/vk_color_white.svg" alt="Изображение логотипа ВКонтакте" />ВКонтакте </a>
                                 </li>
-                                <li><a class="footer__column-link" href="#"> <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Изображение логотипа Instagram" />Instagram </a>
+                                <li><a class="footer__column-link opacity" href="#"> <img class="footer__social-icon opacity" src="./images/instagram_color_white.svg" alt="Изображение логотипа Instagram" />Instagram </a>
                                 </li>
                             </ul>
                         </nav>

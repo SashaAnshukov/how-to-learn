@@ -1,0 +1,5 @@
+.footer__column_content_social {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px dashed red;*/
+}

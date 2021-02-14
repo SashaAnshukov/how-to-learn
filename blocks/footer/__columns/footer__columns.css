@@ -1,0 +1,10 @@
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px dashed rgb(51, 255, 0);*/
+}

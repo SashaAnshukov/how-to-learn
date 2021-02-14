@@ -1,0 +1,8 @@
+.two-colomns {
+    display: flex;
+    margin-top: 100px;
+    width: 80%;
+    min-width: 784px;
+    justify-content: space-between;
+    /*border: 1px dashed rgb(51, 255, 0);*/
+}
