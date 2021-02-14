@@ -1,3 +1,4 @@
+@import url('..//vendor/normalize.css');
 @import url('../blocks/page/page.css');
 
 @import url('../blocks/logo/logo.css');
@@ -62,7 +63,7 @@
 @import url('../blocks/khan/__buy-link/khan__buy-link.css');
 
 @import url('../blocks/kaufman/kaufman.css');
-@import url('../blocks//kaufman/__triangle/kaufman__triangle.css');
+@import url('../blocks/kaufman/__triangle/kaufman__triangle.css');
 
 @import url('../blocks/resourses/__logo-zone/resourses__logo-zone.css');
 @import url('../blocks/resourses/__logo-zone-list/resourses__logo-zone-list.css');
