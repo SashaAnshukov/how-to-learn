@@ -1,4 +1,6 @@
 .footer__column-list {
     list-style: none;
     padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
