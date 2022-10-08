@@ -9,22 +9,24 @@
 * Анимация и трансформация элементов страницы посредством CSS 
 * Секция *video* с встроенными в страницу видео из Youtube
 
-## :hammer_and_wrench: Технологии :
+## :hammer_and_wrench: Технологии:
 
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
-  Анимация посредством 
-    <div id="badges">
+* <div>
+  <a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="21px" height="21px"></a>
+  <a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="21px" height="21px"></a>
+  <a href="https://git-scm.com/" title="git"><img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/git.svg" alt="git" width="21px" height="21px"></a>
+  </div>
+
+* Анимация реализована посредством <div id="badges">
       <a href="https://learn.javascript.ru/css-animations#klyuchevye-kadryL">
         <img src="https://img.shields.io/badge/@keyframes-blue?style=for-the-badge&logo=@keyframes&logoColor=white" alt="@keyframes Badge"/>
       </a>
     </div>
-</div>
-
-
-* Для вставки видео используется iframe
+* воспроизведение видео реализовано посредством <div id="badges">
+      <a href="https://learn.javascript.ru/iframes">
+        <img src="https://img.shields.io/badge/iframe-blue?style=for-the-badge&logo=iframe&logoColor=white" alt="iframe Badge"/>
+      </a>
+    </div>
 * файловая структура проекта по правилам Nested БЭМ
 
 ##Инструкция по развёртыванию
