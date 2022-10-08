@@ -12,9 +12,9 @@
 ## :hammer_and_wrench: Технологии:
 
 * <div>
-  <a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="21px" height="21px"></a>
-  <a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="21px" height="21px"></a>
-  <a href="https://git-scm.com/" title="git"><img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/git.svg" alt="git" width="21px" height="21px"></a>
+  <a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="40px" height="21px"></a>
+  <a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="21px" height="40px"></a>
+  <a href="https://git-scm.com/" title="git"><img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/git.svg" alt="git" width="21px" height="40px"></a>
   </div>
 
 * <div id="badges" style="white-space: nowrap"> 
@@ -33,10 +33,10 @@
   </div>
 * файловая структура проекта по правилам Nested БЭМ
 
-##Инструкция по развёртыванию
+## Инструкция по развёртыванию:
+Клонируйте репозиторий на свой компьютер через командную строку и запустите локально.
 
 ## Будущая доработка проекта будет включать в себя: 
 
 * Добавление любимых образовательных видео
 * Добавление адаптива
-* Создание формы обратной связи 
