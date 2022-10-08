@@ -9,14 +9,21 @@
 * Анимация и трансформация элементов страницы посредством CSS 
 * Секция *video* с встроенными в страницу видео из Youtube
 
-## Технологии: 
+## :hammer_and_wrench: Технологии :: 
 
-* HTML5 
-* CSS
-* Анимация посредством @keyframes
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
+</div>
+
+* Анимация посредством <div id="badges">
+  <a href="https://learn.javascript.ru/css-animations#klyuchevye-kadryL">
+    <img src="https://img.shields.io/badge/@keyframes-blue?style=for-the-badge&logo=@keyframes&logoColor=white" alt="@keyframes Badge"/>
+  </a>
+</div>
 * Для вставки видео используется iframe
 * файловая структура проекта по правилам Nested БЭМ
-* Git 
 
 ##Инструкция по развёртыванию
 
