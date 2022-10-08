@@ -17,15 +17,8 @@
   <a href="https://git-scm.com/" title="git"><img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/git.svg" alt="git" width="21px" height="21px"></a>
   </div>
 
-* Анимация реализована посредством <div id="badges"> <a href="https://learn.javascript.ru/css-animations#klyuchevye-kadryL">
-        <img src="https://img.shields.io/badge/@keyframes-blue?style=for-the-badge&logo=@keyframes&logoColor=white" alt="@keyframes Badge"/>
-      </a>
-    </div>
-* воспроизведение видео реализовано посредством <div id="badges">
-      <a href="https://learn.javascript.ru/iframes">
-        <img src="https://img.shields.io/badge/iframe-blue?style=for-the-badge&logo=iframe&logoColor=white" alt="iframe Badge"/>
-      </a>
-    </div>
+* Анимация реализована посредством <div id="badges"> <a href="https://learn.javascript.ru/css-animations#klyuchevye-kadryL"> <img src="https://img.shields.io/badge/@keyframes-blue?style=for-the-badge&logo=@keyframes&logoColor=white" alt="@keyframes Badge"/></a></div>
+* воспроизведение видео реализовано посредством <div id="badges"> <a href="https://learn.javascript.ru/iframes"><img src="https://img.shields.io/badge/iframe-blue?style=for-the-badge&logo=iframe&logoColor=white" alt="iframe Badge"/></a></div>
 * файловая структура проекта по правилам Nested БЭМ
 
 ##Инструкция по развёртыванию
